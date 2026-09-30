@@ -8,17 +8,17 @@ Sistem manajemen destinasi yang akan membantu pengguna dalam mencari dan memilih
 
 ## Dengan apa sistem ini akan dibangun
 
-Sistem ini akan dibangun dengan menggunakan teknologi web modern Next.js dengan backend dan database di simpan pada Supabase. Sistem ini akan memiliki antarmuka pengguna yang responsif dan mudah digunakan, serta integrasi dengan layanan pihak ketiga seperti layanan peta dan layanan reservasi. Juga sistem ini akan di deploy di Vercel untuk memastikan ketersediaan dan skalabilitas yang baik.
+Sistem ini akan dibangun dengan menggunakan teknologi web modern React.js dengan backend dan database di simpan pada Supabase. Sistem ini akan memiliki antarmuka pengguna yang responsif dan mudah digunakan, serta integrasi dengan layanan pihak ketiga seperti layanan peta dan layanan reservasi. Juga sistem ini akan di deploy di Vercel untuk memastikan ketersediaan dan skalabilitas yang baik.
 
 ## Bagaimana rancangan alur sistem pada setiap fitur yang dibangun
 
 ### Pencarian Destinasi
 
-User dapat memasukkan kriteria pencarian seperti lokasi, jenis destinasi, dan harga. Sistem akan menampilkan daftar destinasi yang sesuai dengan kriteria tersebut. Sistem mencari data destinasi dari database Supabase dan menampilkannya di antarmuka pengguna menggunakan Next.js. Sistem juga akan menyediakan filter tambahan untuk mempersempit hasil pencarian.
+User dapat memasukkan kriteria pencarian seperti lokasi, jenis destinasi, dan harga. Sistem akan menampilkan daftar destinasi yang sesuai dengan kriteria tersebut. Sistem mencari data destinasi dari database Supabase dan menampilkannya di antarmuka pengguna menggunakan React.js. Sistem juga akan menyediakan filter tambahan untuk mempersempit hasil pencarian.
 
 ### Tampilan Detail Destinasi
 
-User dapat memilih destinasi dari daftar hasil pencarian untuk melihat detailnya, termasuk deskripsi, foto, ulasan, dan informasi kontak. Sistem akan mengambil data detail destinasi dari database Supabase dan menampilkannya di antarmuka pengguna menggunakan Next.js. Sistem juga akan menyediakan opsi untuk melihat ulasan dari pengguna lain dan memberikan ulasan sendiri.
+User dapat memilih destinasi dari daftar hasil pencarian untuk melihat detailnya, termasuk deskripsi, foto, ulasan, dan informasi kontak. Sistem akan mengambil data detail destinasi dari database Supabase dan menampilkannya di antarmuka pengguna menggunakan React.js. Sistem juga akan menyediakan opsi untuk melihat ulasan dari pengguna lain dan memberikan ulasan sendiri.
 
 ### Sistem Reservasi
 
